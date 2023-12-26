@@ -1,8 +1,19 @@
 /* MEDIA QUERIES */
 
-/* INDEX PAGE */
+
 
 @media (max-width: 1400px) {
+
+    /* INDEX PAGE */
+    .about {
+        padding: 5rem;
+    }
+
+    .about__card {
+        width: 85%;
+    }
+
+    /* INDEX PAGE */
 
     /* CONTACT US PAGE */
     .contactUs--page {
@@ -16,14 +27,6 @@
     /* CONTACT US PAGE */
 
     /* ABOUT US PAGE */
-    .aboutUs__header {
-        font-size: 3.5rem;
-    }
-
-    .aboutUs__info h2 {
-        font-size: 2.5rem;
-    }
-
     .aboutUs__info span {
         font-size: 1.5rem;
     }
@@ -44,10 +47,6 @@
     /* ABOUT US PAGE */
 
     /* BLOG PAGE */
-    .blog h1 {
-        font-size: 3.8rem;
-    }
-
     .blog__container {
         width: 85vw;
     }
@@ -123,10 +122,6 @@
         font-size: 1.3rem;
     }
 
-    .hero__content h1 {
-        font-size: 3.8rem;
-    }
-
     .service__header {
         padding: 0 10rem;
     }
@@ -178,8 +173,8 @@
         width: 95vw;
     }
 
-    .hero__content h1 {
-        font-size: 3.4rem;
+    .about__card {
+        width: 95%;
     }
 
     .service__header {
@@ -194,9 +189,6 @@
         column-gap: 2rem;
     }
 
-    .contactUs__heading h2 {
-        font-size: 4rem;
-    }
 
     .contactUs__form {
         grid-row: 1/2;
@@ -220,17 +212,11 @@
     /* INDEX PAGE */
 
     /* ABOUT US PAGE */
-    .aboutUs__header {
-        font-size: 3.2rem;
-    }
 
     .aboutUs__info {
         width: 90vw;
     }
 
-    .aboutUs__info h2 {
-        font-size: 2.2rem;
-    }
 
     .aboutUs__info span {
         font-size: 1.4rem;
@@ -387,10 +373,6 @@
         width: 90%;
     }
 
-    .hero__content h1 {
-        font-size: 3.4rem;
-    }
-
     .hero__btn {
         padding: 0.8em 3em 0.8em 1.5em;
     }
@@ -398,6 +380,15 @@
     .hero__btn svg {
         bottom: 11px;
         right: 15px;
+    }
+
+    .about {
+        padding: 5rem 2rem;
+    }
+
+    .about__card {
+        padding: 1.5rem;
+        width: 95%;
     }
 
     .service__header {
@@ -414,13 +405,8 @@
         position: static;
     }
 
-    .service__header h2 {
-        font-size: 1.8rem;
-    }
 
-    .service__header span {
-        font-size: 1.4rem;
-    }
+
 
     .service__header span,
     .service__header h2 {
@@ -442,10 +428,7 @@
         gap: 3rem;
     }
 
-    .contactUs__heading h2 {
-        width: 100%;
-        font-size: 3.5rem;
-    }
+
 
     .contactUs__form {
         width: 80%;
@@ -543,9 +526,6 @@
     /* SERVICE PAGE */
 
     /* ABOUT PAGE */
-    .aboutUs__header {
-        font-size: 2.5rem;
-    }
 
     .aboutUs__info {
         width: 90vw;
@@ -558,9 +538,7 @@
         gap: 1.4rem;
     }
 
-    .aboutUs__info h2 {
-        font-size: 2rem;
-    }
+
 
     .aboutUs__info p {
         font-size: 1rem;
@@ -578,9 +556,6 @@
         gap: 1rem;
     }
 
-    .values h2 {
-        font-size: 2.8rem;
-    }
 
 
     .values h3 {
@@ -597,10 +572,6 @@
         width: 90vw;
     }
 
-    .project h2 {
-        font-size: 2.6rem;
-    }
-
     .project :nth-child(2) {
         font-size: 1.4rem;
     }
@@ -610,9 +581,6 @@
     /* BLOG PAGE */
 
 
-    .blog h1 {
-        font-size: 3rem;
-    }
 
     .blog__container {
         display: flex;
@@ -640,9 +608,7 @@
 
     /* TESTIMONIAL PAGE */
 
-    .testimonials h1 {
-        font-size: 3.4rem;
-    }
+
 
     .testimonials__container {
         width: 95vw;
@@ -799,6 +765,13 @@
         grid-template-columns: repeat(auto-fill, 70%);
     }
 
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+
     /* INDEX PAGE */
 
     /* ABOUT PAGE */
@@ -807,11 +780,6 @@
         height: 80%;
         object-fit: cover;
         align-self: center;
-    }
-
-
-    .project h2 {
-        font-size: 2.4rem;
     }
 
     .project :nth-child(2) {
@@ -884,7 +852,6 @@
     }
 
     .hero__content h1 {
-        font-size: 2.5rem;
         line-height: 1.5;
     }
 
@@ -904,8 +871,26 @@
         right: 15px;
     }
 
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 5rem 1.5rem;
+    }
+
+    .about__card {
+        width: 100%;
+    }
+
     .service__cards {
-        grid-template-columns: repeat(auto-fill, 80%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service__cards div {
+        width: 90%;
     }
 
     .contactUs__info {
@@ -939,16 +924,19 @@
     .footer {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
+        padding: 3rem 0;
+        padding-left: 18px;
         gap: 2rem;
     }
+
 
     .footer__info {
         gap: 2rem;
     }
 
     .footer__links {
-        text-align: center;
+        align-items: start;
     }
 
     .footer__license {
@@ -957,8 +945,7 @@
     }
 
     .footer__logo {
-        align-items: center;
-        width: 55%;
+        align-self: flex-start;
     }
 
     .footer__logo span {
@@ -966,16 +953,24 @@
     }
 
     .footer__logo span {
-        text-align: center;
+        text-align: start;
     }
 
     .footer__info {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
+        margin-left: 0;
+        padding: 0;
     }
 
     .footer__info span {
+        width: 100%;
+    }
+
+    .footer__license {
+        align-self: center;
+        width: 90%;
         text-align: center;
     }
 
@@ -1012,7 +1007,6 @@
     }
 
     .aboutUs__header {
-        font-size: 2rem;
         width: 90vw;
     }
 
@@ -1027,7 +1021,6 @@
     }
 
     .values h2 {
-        font-size: 2.4rem;
         text-align: center;
         margin: 0 auto;
     }
@@ -1045,17 +1038,8 @@
         width: fit-content;
     }
 
-
-    .team__container h2 {
-        font-size: 2.5rem;
-    }
-
     .team__cards {
         row-gap: 3rem;
-    }
-
-    .project h2 {
-        font-size: 2rem;
     }
 
     .project :nth-child(2) {
@@ -1069,19 +1053,11 @@
         width: 85%;
     }
 
-    .blog h1 {
-        font-size: 2rem;
-    }
-
     /* BLOG PAGE */
 
     /* TESTIMONIAL PAGE */
     .testimonial__person {
         width: 100%;
-    }
-
-    .testimonials h1 {
-        font-size: 2.8rem;
     }
 
     /* TESTIMONIAL PAGE */
@@ -1175,6 +1151,11 @@
 @media (max-width: 360px) {
     .hero__content {
         width: 100%;
+        padding: 0 15px;
+    }
+
+    .hero__description {
+        font-size: 1rem;
     }
 
     .hero__btn {
@@ -1194,9 +1175,6 @@
 
 
     /* ABOUT US PAGE */
-    .project h2 {
-        font-size: 1.8rem;
-    }
 
     .project :nth-child(2) {
         font-size: 1rem;
