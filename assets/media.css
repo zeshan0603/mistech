@@ -1026,7 +1026,7 @@
         padding: 0;
     }
 
-    .footer__info span {
+    .footer__info a:nth-child(1) {
         width: 100%;
     }
 
