@@ -13,6 +13,13 @@
         width: 85%;
     }
 
+
+    .service__cards div {
+        column-gap: 1rem;
+    }
+
+
+
     /* INDEX PAGE */
 
     /* CONTACT US PAGE */
@@ -45,6 +52,7 @@
     }
 
     /* ABOUT US PAGE */
+
 
     /* BLOG PAGE */
     .blog__container {
@@ -173,6 +181,10 @@
         width: 95vw;
     }
 
+    .hero__content h1 span {
+        width: fit-content;
+    }
+
     .about__card {
         width: 95%;
     }
@@ -185,10 +197,14 @@
         grid-template-columns: repeat(auto-fill, 40%);
     }
 
+    .service__cards div {
+        column-gap: 1rem;
+        grid-template-columns: 15% 1fr;
+    }
+
     .contactUs {
         column-gap: 2rem;
     }
-
 
     .contactUs__form {
         grid-row: 1/2;
@@ -244,6 +260,8 @@
     }
 
     /* ABOUT US PAGE */
+
+
 
     /* BLOG PAGE */
     .blog__container {
@@ -373,6 +391,11 @@
         width: 90%;
     }
 
+    .hero__content h1 span {
+        width: fit-content;
+    }
+
+
     .hero__btn {
         padding: 0.8em 3em 0.8em 1.5em;
     }
@@ -406,8 +429,6 @@
     }
 
 
-
-
     .service__header span,
     .service__header h2 {
         width: 100%;
@@ -416,6 +437,14 @@
 
     .service__cards {
         grid-template-columns: repeat(auto-fill, 40%);
+    }
+
+    .service__cards div {
+        column-gap: 2rem;
+    }
+
+    .service__cards div {
+        grid-template-columns: 15% 1fr;
     }
 
     .contactUs {
@@ -538,8 +567,6 @@
         gap: 1.4rem;
     }
 
-
-
     .aboutUs__info p {
         font-size: 1rem;
     }
@@ -578,10 +605,9 @@
 
     /* ABOUT PAGE */
 
+
+
     /* BLOG PAGE */
-
-
-
     .blog__container {
         display: flex;
         flex-direction: column;
@@ -771,6 +797,20 @@
         align-items: start;
     }
 
+    .service__cards div {
+        column-gap: 1rem;
+    }
+
+    .service__cards div span:nth-child(1) {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .service__cards div span:nth-child(1) img {
+        width: 30px;
+        height: 30px;
+    }
 
     /* INDEX PAGE */
 
@@ -787,7 +827,6 @@
     }
 
     /* ABOUT PAGE */
-
 
     /* TESTIMONIAL PAGE */
     .testimonial__person {
@@ -891,6 +930,26 @@
 
     .service__cards div {
         width: 90%;
+    }
+
+    .service__cards div span:nth-child(1) {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .service__cards div span:nth-child(1) img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .service__cards div:nth-child(1) span:nth-child(1) img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .service__cards div {
+        column-gap: 2rem;
     }
 
     .contactUs__info {
@@ -1074,13 +1133,28 @@
         column-gap: 1rem;
     }
 
-    .approach__methods svg {
+    .approach__methods span:nth-child(1),
+    .approach__methods span:nth-child(4),
+    .approach__methods span:nth-child(7),
+    .approach__methods span:nth-child(10),
+    .approach__methods span:nth-child(13) {
+        align-self: self-start;
         width: 35px;
         height: 35px;
     }
 
+    .approach__methods span img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .approach__content p {
+        margin: 0 auto;
+    }
+
     .approach__methods p {
         margin-bottom: 2rem;
+        width: 100%;
     }
 
     /* APPROACH PAGE */
@@ -1152,6 +1226,10 @@
     .hero__content {
         width: 100%;
         padding: 0 15px;
+    }
+
+    .hero__content h1 span {
+        width: 250px;
     }
 
     .hero__description {
