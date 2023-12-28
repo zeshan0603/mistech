@@ -1089,6 +1089,26 @@ body {
 /* BLOG PAGE */
 
 
+/* WORKSHOP AND IT TRAINING PAGE */
+.itTraining h1,
+.workshop h1 {
+    text-align: center;
+    background-color: var(--primary);
+    color: white;
+    padding: 5rem;
+}
+
+.itTraining span,
+.workshop span {
+    font-size: 1.4rem;
+    font-weight: normal;
+    display: block;
+    margin-top: 3rem;
+}
+
+
+/* WORKSHOP AND IT TRAINING PAGE */
+
 /* TESTIMONIAL PAGE */
 
 .testimonials {
