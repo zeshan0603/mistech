@@ -137,7 +137,8 @@
     }
 
     .contactUs {
-        column-gap: 2rem;
+        column-gap: 1rem;
+        row-gap: 2rem;
     }
 
     .contactUs__form {
@@ -211,7 +212,7 @@
     .contactUs__form {
         grid-row: 1/2;
         width: 320px;
-        height: 470px;
+        height: auto;
         padding: 0;
         padding: 1rem;
     }
