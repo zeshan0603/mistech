@@ -1,350 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MisTech Solutions</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/icon/favicon.ico">
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="./assets/media.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MisTech Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="shortcut icon" href="./assets/icon/favicon.ico" />
+  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/media.css" />
 </head>
+
 <body>
+  <header>
+    <!-- NAVBAR START -->
+    <nav class="navbar">
+      <a href="index.html" class="navbar__logo"><img loading="eager" width="70" height="70"
+          src="./assets/images/logo.webp" alt="website logo" /><span>MisTech</span></a>
+      <ul id="navMenu">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="service.html">Services</a>
+        </li>
+        <li>
+          <a href="blogs.html">Blog</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+  </header>
 
-    <header>
-        <!-- NAVBAR START -->
-        <nav class="navbar">
-            <a href="index.html" class="navbar__logo"><img loading="eager" width="70" height="70" src="./assets/images/logo.webp" alt="website logo"><span>MisTech</span></a>
-            <ul id="navMenu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="service.html">Services</a>
-                </li>    
-                <li>
-                    <a href="blogs.html">Blog</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-        <!-- NAVBAR END -->
-    </header>
+  <!-- HERO SECTION START -->
+  <section id="hero" class="hero">
+    <div class="hero__content">
+      <h1>
+        Empowering your digital presence with versatile
+        <span id="words">Wesbite</span> solutions
+      </h1>
 
+      <span class="hero__description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+        consectetur, eaque
+      </span>
 
-    <!-- HERO SECTION START -->
-    <section id="hero" class="hero">
-        <div class="hero__content">
-            <h1>
-                Empowering your digital presence with versatile <span id="words">Wesbite</span> solutions
-            </h1>
+      <div>
+        <a href="contact.html" class="hero__btn button btn--primary">
+          Contact Us
+          <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
+              fill="currentColor" />
+          </svg>
+        </a>
+        <a href="service.html" class="hero__btn button btn--secondary">
+          Our Services
+          <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
+              fill="currentColor" />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <img class="hero__img" loading="eager" width="300" height="400" src="./assets/images/globe.webp"
+      alt="globe image" />
+  </section>
+  <!-- HERO SECTION END -->
 
-            <span class="hero__description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda consectetur, eaque
-            </span>
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <h2>What is MisTech?</h2>
+    <p>
+      In a rapidly changing tech landscape, Mistech Solutions emerged from the
+      collective drive of visionary tech enthusiasts. The story began in 2019
+      with a shared ambition to reshape the digital sphere and deliver tech
+      solutions that not only met client needs but surpassed their
+      expectations.
+    </p>
+    <p>
+      Peering into the future, Mistech Solutions envisions a limitless tech
+      landscape where boundaries cease to exist. We are unwavering in our
+      commitment to remain at the forefront of industry trends and emerging
+      technologies, ensuring that clients receive nothing but the most
+      innovative solutions. Our mission remains steadfast: to empower
+      businesses to achieve unparalleled success in the digital realm.
+    </p>
 
-           <div>
-                <a href="contact.html" class="hero__btn button btn--primary">
-                    Contact Us 
-                    <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z" fill="currentColor"/>
-                    </svg>
-                </a>
-                <a href="service.html" class="hero__btn button btn--secondary">
-                    Our Services
-                    <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z" fill="currentColor"/>
-                    </svg>
-                </a>
-           </div>
-        </div>
-        <img class="hero__img" loading="eager" width="300" height="400" src="./assets/images/globe.webp" alt="globe image">
-    </section>
-    <!-- HERO SECTION END -->
-    
-    <!-- ABOUT SECTION -->
-    <section class="about" id="about">
-        <h2>What is MisTech?</h2>
-        <p>In a rapidly changing tech landscape, Mistech Solutions emerged from the collective drive of visionary tech enthusiasts. The story began in 2019 with a shared ambition to reshape the digital sphere and deliver tech solutions that not only met client needs but surpassed their expectations.</p>
+    <div class="about__card">
+      <h3>OUR MISSION</h3>
+      <p>
+        Collaboration is key to our success. We value the diverse talents and
+        perspectives of our team members and work together cohesively to
+        achieve common goals.We embrace creativity and are always eager to
+        explore new technologies and approaches to deliver innovative
+        solutions.
+      </p>
+    </div>
+    <div class="about__card">
+      <h3>OUR VISION</h3>
+      <p>
+        We embrace creativity and are always eager to explore new technologies
+        and approaches to deliver innovative solutions.At MisTech Solutions,
+        our core values are the foundation of everything we do. These values
+        guide our interactions with clients, shape our work culture, and
+        inspire us to achieve the highest standards of excellence.
+      </p>
+    </div>
+
+    <a href="about.html">Learn more about us</a>
+  </section>
+  <!-- ABOUT SECTION -->
+
+  <!-- SERVICE START -->
+  <section id="service" class="service">
+    <div class="service__header">
+      <h2>OUR SERVICES</h2>
+      <span>Innovative Solutions Tailored to Your Needs</span>
+      <a class="service__btn button btn--secondary" href="service.html">All Services</a>
+    </div>
+
+    <div class="service__cards">
+      <div>
+        <span>
+          <img loading="lazy" alt="icon" width="65" height="65" src="./assets/icon/card-icon-1.svg" alt="UI/UX icon" />
+        </span>
+        <span> UI/UX </span>
         <p>
-            Peering into the future, Mistech Solutions envisions a limitless tech landscape where boundaries cease to exist. We are unwavering in our commitment to remain at the forefront of industry trends and emerging technologies, ensuring that clients receive nothing but the most innovative solutions. Our mission remains steadfast: to empower businesses to achieve unparalleled success in the digital realm.
+          Elevate user experiences with our UI/UX mastery. Appealing crafted
+          designs that engage, delight, and turn visitors into loyal fans.
         </p>
+        <a href="UIUX.html">Know More
+          <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
+              fill="currentColor" />
+          </svg>
+        </a>
+      </div>
+      <div>
+        <span>
+          <img loading="lazy" alt="icon" width="65" height="65" src="./assets/icon/card-icon-2.svg" alt="UI/UX icon" />
+        </span>
+        <span> Websites / Web App </span>
+        <p>
+          Transforming ideas into web excellence. We build, innovate, and
+          elevate your digital presence for ultimate success in your industry.
+        </p>
+        <a href="website.html">Know More
+          <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
+              fill="currentColor" />
+          </svg>
+        </a>
+      </div>
+      <div>
+        <span>
+          <img loading="lazy" alt="icon" width="65" height="65" src="./assets/icon/card-icon-3.svg" alt="UI/UX icon" />
+        </span>
+        <span> App Development </span>
+        <p>
+          Crafting captivating mobile experiences, our app development turns
+          visions into standout digital solutions. Elevate your brand today!
+        </p>
+        <a href="appDevelopment.html">Know More
+          <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
+              fill="currentColor" />
+          </svg>
+        </a>
+      </div>
+      <div>
+        <span>
+          <img loading="lazy" alt="icon" width="65" height="65" src="./assets/icon/card-icon-4.svg" alt="UI/UX icon" />
+        </span>
 
-        <div class="about__card">
-            <h3>
-                OUR MISSION
-            </h3>
-            <p>Collaboration is key to our success. We value the diverse talents and perspectives of our team members and work together cohesively to achieve common goals.We embrace creativity and are always eager to explore new technologies and approaches to deliver innovative solutions.</p>
-        </div>
-        <div class="about__card">
-            <h3>OUR VISION</h3>
-            <p>We embrace creativity and are always eager to explore new technologies and approaches to deliver innovative solutions.At MisTech Solutions, our core values are the foundation of everything we do. These values guide our interactions with clients, shape our work culture, and inspire us to achieve the highest standards of excellence.
-            </p>
-        </div>
-        
+        <span> WordPress Development </span>
+        <p>
+          Unlock the power of WordPress: We create custom websites with
+          unmatched performance that captivate, engage, and drive results.
+        </p>
+        <a href="wordpress.html">Know More
+          <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
+              fill="currentColor" />
+          </svg>
+        </a>
+      </div>
+      <div>
+        <span>
+          <img loading="lazy" alt="icon" width="65" height="65" src="./assets/icon/card-icon-5.svg" alt="UI/UX icon" />
+        </span>
+        <span> AI and Machine Learning </span>
+        <p>
+          Pioneering AI and Machine Learning: We infuse intelligence into
+          client websites, creating adaptive, data-driven digital solutions.
+        </p>
+        <a href="ai.html">Know More
+          <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
+              fill="currentColor" />
+          </svg>
+        </a>
+      </div>
+      <div>
+        <span>
+          <img loading="lazy" alt="icon" width="65" height="65" src="./assets/icon/card-icon-6.svg" alt="UI/UX icon" />
+        </span>
+        <span> Technical SEO </span>
+        <p>
+          SEO Mastery Unleashed: We optimize client websites with Technical
+          SEO, elevating online visibility and driving organic growth.
+        </p>
+        <a href="seo.html">Know More
+          <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"
+              fill="currentColor" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- SERVICE END -->
 
-        <a href="about.html">Learn more about us</a>
-    </section>
-    <!-- ABOUT SECTION -->
+  <!-- CONTACT US START -->
+  <section id="contactUs" class="contactUs">
+    <div class="contactUs__heading">
+      <span>Contact Us &</span>
+      <h2>Let's talk about your problem.</h2>
+    </div>
 
-    <!-- SERVICE START -->
-    <section id="service" class="service">
-        <div class="service__header">
-            <h2>OUR SERVICES</h2>
-            <span>Innovative Solutions Tailored to Your Needs</span>
-            <a class="service__btn button btn--secondary" href="service.html">All Services</a>
-        </div>
+    <form id="contactForm" class="contactUs__form">
+      <h3>Send Message</h3>
+      <div class="form-field">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" autocomplete="off">
+        <small></small>
+      </div>
 
-        <div class="service__cards">
-            <div>
-                <span>
-                    <img loading="lazy" alt="icon" width="65" height="65" src="./assets/icon/card-icon-1.svg" alt="UI/UX icon">
-                </span>
-                <span>
-                    UI/UX
-                </span>
-                <p>
-                    Elevate user experiences with our UI/UX mastery. Appealing crafted designs that engage, delight, and turn visitors into loyal fans.
-                </p>
-                <a href="UIUX.html">Know More 
-                    <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z" fill="currentColor"/>
-                    </svg>
-                </a>
-            </div>
-            <div>
-                <span>
-                    <img loading="lazy" alt="icon" width="65" height="65" src="./assets/icon/card-icon-2.svg" alt="UI/UX icon">
-                </span>
-                <span>
-                    Websites / Web App
-                </span>
-                <p>
-                    Transforming ideas into web excellence. We build, innovate, and elevate your digital presence for ultimate success in your industry.
-                </p>
-                <a href="website.html">Know More 
-                    <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z" fill="currentColor"/>
-                    </svg>
-                </a>
-            </div>
-            <div>
-                <span>
-                    <img loading="lazy" alt="icon" width="65" height="65" src="./assets/icon/card-icon-3.svg" alt="UI/UX icon">
-                </span>
-                <span>
-                    App Development
-                </span>
-                <p>
-                    Crafting captivating mobile experiences, our app development turns visions into standout digital solutions. Elevate your brand today!
-                </p>
-                <a href="appDevelopment.html">Know More 
-                    <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z" fill="currentColor"/>
-                    </svg>
-                </a>
-            </div>
-            <div>
-                <span>
-                    <img loading="lazy" alt="icon" width="65" height="65" src="./assets/icon/card-icon-4.svg" alt="UI/UX icon">
-                </span>
+      <div class="form-field">
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" autocomplete="off">
+        <small></small>
+      </div>
+      <div class="form-field">
+        <label for="email">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <small></small>
+      </div>
 
-                <span>
-                    WordPress Development
-                </span>
-                <p>
-                    Unlock the power of WordPress: We create custom websites with unmatched performance that captivate, engage, and drive results.
-                </p>
-                <a href="wordpress.html">Know More 
-                    <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z" fill="currentColor"/>
-                    </svg>
-                </a>
-            </div>
-            <div>
-                <span>
-                    <img loading="lazy" alt="icon" width="65" height="65" src="./assets/icon/card-icon-5.svg" alt="UI/UX icon">
-                </span>
-                <span>
-                    AI and Machine Learning
-                </span>
-                <p>
-                    Pioneering AI and Machine Learning: We infuse intelligence into client websites, creating adaptive, data-driven digital solutions.
-                </p>
-                <a href="ai.html">Know More 
-                    <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z" fill="currentColor"/>
-                    </svg>
-                </a>
-            </div>
-            <div>
-                <span>
-                    <img loading="lazy" alt="icon" width="65" height="65" src="./assets/icon/card-icon-6.svg" alt="UI/UX icon">
-                </span>
-                <span>
-                    Technical SEO
-                </span>
-                <p>
-                    SEO Mastery Unleashed: We optimize client websites with Technical SEO, elevating online visibility and driving organic growth.
-                </p>
-                <a href="seo.html">Know More 
-                    <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z" fill="currentColor"/>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- SERVICE END -->
+      <button type="submit">Send Message</button>
+    </form>
 
-    <!-- CONTACT US START -->
-    <section id="contactUs" class="contactUs">
-        <div class="contactUs__heading">
-            <span>Contact Us &</span>
-            <h2>Let's talk about your problem.</h2>
-        </div>
+    <div class="contactUs__info">
+      <span>ADDRESS</span>
+      <span>Office No. 06, Marhaba Manzil, Shilphata, Thane, MH, IN.</span>
+      <span>EMAIL</span>
+      <a href="mailto:mistech.co@gmail.com">mistech.co@gmail.co</a>
+      <span>TELEPHONE</span>
+      <a href="tel:+6494461709">+91 9324880139</a>
+    </div>
+  </section>
+  <!-- CONTACT US END -->
 
-        <form action="" class="contactUs__form">
-            <h3>Send a message.</h3>
+  <!-- FOOTER START -->
+  <footer id="footer" class="footer">
+    <div class="footer__logo">
+      <a href="index.html"><img loading="lazy" width="35" height="35" src="./assets/images/logo.webp"
+          alt="website logo" /></a>
+      <span> Creating Identity Connecting World Building Businesses </span>
+    </div>
 
-            <label for="name">Name</label>
-            <input type="text" id="name" class="contactUs__name">
+    <ul class="footer__links">
+      <li>
+        <a href="IT-training.html">IT Training</a>
+      </li>
+      <li>
+        <a href="workshops.html">Workshops</a>
+      </li>
+      <li>
+        <a href="testimonials.html">Testimonials</a>
+      </li>
+      <li>
+        <a href="case-studies.html">Case studies</a>
+      </li>
+      <li>
+        <a href="careers.html">Careers</a>
+      </li>
+      <li>
+        <a href="client.html">Clients</a>
+      </li>
+    </ul>
+    <ul class="footer__links">
+      <li>
+        <a href="approach.html">Approach</a>
+      </li>
+      <li>
+        <a href="support.html">Support</a>
+      </li>
+      <li>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </li>
+      <li>
+        <a href="TOU.html">Terms of Use</a>
+      </li>
+      <li>
+        <a href="FAQs.html">FAQs</a>
+      </li>
+    </ul>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" class="contactUs__email">
+    <div class="footer__info">
+      <a href="https://www.google.com/maps/place/MisTech+Solutions/@19.1459394,73.0407009,15z/data=!4m6!3m5!1s0x3be7c1e5c41d4f59:0xd3f426a6ecaebeb6!8m2!3d19.1459394!4d73.0407009!16s%2Fg%2F11l2m9vpw2?entry=ttu"
+        target="_blank">
+        <img loading="lazy" width="25" height="25" src="./assets/icon/address.svg" alt="location icon" />
+        Office No. 06, Marhaba Manzil, Shilphata, Thane, MH, IN.
+      </a>
 
-            <label for="message">Message</label>
-            <textarea name="message" id="message" class="contactUs__msg" cols="30" rows="10"></textarea>
+      <a href="tel:+91 7977646886">
+        <img loading="lazy" width="25" height="25" src="./assets/icon/phone.svg" alt="phone icon" />
+        +91 7977646886
+      </a>
 
-            <button>Send Message</button>
-        </form>
-        
-        <div class="contactUs__info">
-                <span>ADDRESS</span>
-                <span>Office No. 06, Marhaba Manzil, Shilphata, Thane, MH, IN.</span>
-                <span>EMAIL</span>
-                <a href="mailto:mistech.co@gmail.com">mistech.co@gmail.co</a>
-                <span>TELEPHONE</span>
-                <a href="tel:+6494461709">+91 9324880139</a>
-        </div>
+      <a href="mailto:mistech.co@gmail.com">
+        <img loading="lazy" width="25" height="25" src="./assets/icon/email.svg" alt="email icon" />
+        mistech.co@gmail.com
+      </a>
+    </div>
 
-        
-    </section>
-    <!-- CONTACT US END -->
+    <div class="footer__license">
+      <span>© Copyright 2023. All rights reserved.</span>
+      <ul>
+        <li>
+          <a href="https://in.linkedin.com/" target="_blank">
+            <img loading="lazy" width="25" height="25" src="./assets/icon/linkedin.svg" alt="linkedin logo" />
+          </a>
+        </li>
+        <li>
+          <a href="https://in.linkedin.com/" target="_blank">
+            <img loading="lazy" width="25" height="25" src="./assets/icon/facebook.svg" alt="facebook logo" />
+          </a>
+        </li>
+        <li>
+          <a href="https://in.linkedin.com/" target="_blank">
+            <img loading="lazy" width="25" height="25" src="./assets/icon/instagram.svg" alt="instagram logo" />
+          </a>
+        </li>
+        <li>
+          <a href="https://in.linkedin.com/" target="_blank">
+            <img loading="lazy" width="25" height="25" src="./assets/icon/youtube.svg" alt="youtube logo" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!-- FOOTER END -->
 
-    <!-- FOOTER START -->
-    <footer id="footer" class="footer">
-        <div class="footer__logo">
-            <a href="index.html"><img loading="lazy" width="35" height="35" src="./assets/images/logo.webp" alt="website logo"></a>
-            <span>
-                Creating Identity
-                Connecting World
-                Building Businesses
-            </span>
-        </div>
-
-        <ul class="footer__links">
-            <li>
-                <a href="IT-training.html">IT Training</a>
-            </li>
-            <li>
-                <a href="workshops.html">Workshops</a>
-            </li>
-            <li>
-                <a href="testimonials.html">Testimonials</a>
-            </li>
-            <li>
-                <a href="case-studies.html">Case studies</a>
-            </li>
-            <li>
-                <a href="careers.html">Careers</a>
-            </li>
-            <li>
-                <a href="client.html">Clients</a>
-            </li>
-        </ul>
-        <ul class="footer__links">
-            <li>
-                <a href="approach.html">Approach</a>
-            </li>
-            <li>
-                <a href="support.html">Support</a>
-            </li>
-            <li>
-                <a href="privacy-policy.html">Privacy Policy</a>
-            </li>
-            <li>
-                <a href="TOU.html">Terms of Use</a>
-            </li>
-            <li>
-                <a href="FAQs.html">FAQs</a>
-            </li>
-        </ul>
-
-        <div class="footer__info">
-
-            <a href="https://www.google.com/maps/place/MisTech+Solutions/@19.1459394,73.0407009,15z/data=!4m6!3m5!1s0x3be7c1e5c41d4f59:0xd3f426a6ecaebeb6!8m2!3d19.1459394!4d73.0407009!16s%2Fg%2F11l2m9vpw2?entry=ttu" target="_blank">
-                <img loading="lazy" width="25" height="25" src="./assets/icon/address.svg" alt="location icon">
-                Office No. 06, Marhaba Manzil, Shilphata, Thane, MH, IN.
-            </a>
-
-            
-            <a href="tel:+91 7977646886">
-                <img loading="lazy" width="25" height="25" src="./assets/icon/phone.svg" alt="phone icon">
-                +91 7977646886
-            </a>
-
-
-            <a href="mailto:mistech.co@gmail.com">
-                <img loading="lazy" width="25" height="25" src="./assets/icon/email.svg" alt="email icon">
-                mistech.co@gmail.com
-            </a>
-
-        </div>
-
-        <div class="footer__license">
-            <span>© Copyright 2023. All rights reserved.</span>
-            <ul>
-                <li>
-                    <a href="https://in.linkedin.com/" target="_blank">
-                        <img loading="lazy" width="25" height="25" src="./assets/icon/linkedin.svg" alt="linkedin logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://in.linkedin.com/" target="_blank">
-                        <img loading="lazy" width="25" height="25" src="./assets/icon/facebook.svg" alt="facebook logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://in.linkedin.com/" target="_blank">
-                        <img loading="lazy" width="25" height="25" src="./assets/icon/instagram.svg" alt="instagram logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://in.linkedin.com/" target="_blank">
-                        <img loading="lazy" width="25" height="25" src="./assets/icon/youtube.svg" alt="youtube logo">
-                    </a>
-                </li>
-
-            </ul>
-        </div>
-
-    </footer>
-    <!-- FOOTER END -->
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="./assets/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="./assets/app.js"></script>
 </body>
+
 </html>

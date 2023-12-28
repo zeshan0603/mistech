@@ -50,19 +50,26 @@
             <h2>Let's talk about your problem.</h2>
         </div>
 
-        <form action="" class="contactUs__form">
-            <h3>Send a message.</h3>
+        <form id="contactForm" class="contactUs__form">
+            <h3>Send Message</h3>
+            <div class="form-field">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" autocomplete="off">
+                <small></small>
+            </div>
 
-            <label for="name">Name</label>
-            <input type="text" id="name" class="contactUs__name">
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="email">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <small></small>
+            </div>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" class="contactUs__email">
-
-            <label for="message">Message</label>
-            <textarea name="message" id="message" class="contactUs__msg" cols="30" rows="10"></textarea>
-
-            <button>Send Message</button>
+            <button type="submit">Send Message</button>
         </form>
         
         <div class="contactUs__info">

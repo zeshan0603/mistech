@@ -20,6 +20,10 @@ h2 {
     font-size: clamp(20px, calc(1.25rem + ((1vw - 3.2px) * 1.9375)), 51px) !important;
 }
 
+p {
+    line-height: 1.4 !important;
+}
+
 
 * {
     margin: 0;
@@ -182,7 +186,7 @@ body {
 
 .footer__logo img {
     width: 75px;
-    height: 75px;
+    height: auto;
 }
 
 .footer__logo span {
@@ -267,9 +271,9 @@ body {
 /* COMMON STYLES */
 
 
-/* INDEX PAGE START */
+/* !INDEX PAGE START */
 
-/* HERO SECTION */
+/* *HERO SECTION */
 .hero {
     width: 80vw;
     height: 90vh;
@@ -627,7 +631,8 @@ body {
     width: 350px;
     height: 100%;
     padding: 1.5rem;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     row-gap: 0.3rem;
 }
 
@@ -637,17 +642,38 @@ body {
     font-size: 1.8rem;
     letter-spacing: 1px;
     margin-bottom: 1rem;
-
 }
 
 .contactUs__form label,
 .contactUs__form h3 {
     font-weight: 300;
-    align-self: self-end;
 }
 
-.contactUs__form .contactUs__email,
-.contactUs__name {
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-field input:focus {
+    outline: none;
+}
+
+.form-field.error input {
+    border: 1px solid #dc3545;
+}
+
+.form-field.success input {
+    border: 1px solid #28a745;
+}
+
+
+.form-field small {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.contactUs__form input {
     border: none;
     outline: none;
     border-radius: 3px;
@@ -669,8 +695,7 @@ body {
 .contactUs__form button {
     border: none;
     background-color: transparent;
-    justify-self: self-start;
-    align-self: self-end;
+    align-self: self-start;
     color: white;
     font-size: 1.1rem;
     padding: 0.7em 1em;
@@ -702,7 +727,7 @@ body {
 }
 
 .contactUs--page form {
-    height: 500px;
+    height: auto;
     align-self: center;
 }
 
@@ -1759,7 +1784,8 @@ body {
 }
 
 .process__card p {
-    line-height: 1.6;
+    line-height: 1.4;
+    text-align: start;
     font-size: 1.1rem;
 }
 
