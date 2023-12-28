@@ -15,7 +15,7 @@ document.querySelectorAll(".nav-link").forEach(n=>n.addEventListener("click",()=
 
 
 // HERO TITLE
- let words = ["Website","Application","Wordpress"]
+ let words = ["Website","Application","WordPress"]
 function changeText(){
   i = 0;
   setInterval(function(){ $('#words').fadeOut(function(){
