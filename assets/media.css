@@ -4,6 +4,10 @@
 
 @media (max-width: 1400px) {
 
+    /* FOOTER */
+
+    /* FOOTER */
+
     /* INDEX PAGE */
     .about {
         padding: 5rem;
@@ -148,7 +152,7 @@
     }
 
     .footer {
-        padding: 3rem 10rem;
+        padding: 3rem 7rem;
     }
 
     /* INDEX PAGE */
@@ -220,7 +224,7 @@
     }
 
     .footer {
-        padding: 3rem 7rem;
+        padding: 3rem;
     }
 
     /* INDEX PAGE */
@@ -412,6 +416,10 @@
         width: 95%;
     }
 
+    .service {
+        margin: 2rem auto;
+    }
+
     .service__header {
         display: flex;
         flex-direction: column;
@@ -422,16 +430,19 @@
     }
 
     .service__header a {
-        padding: 0.9rem;
+        padding: 0.5rem 0.9rem;
+        font-size: 1rem;
         position: static;
     }
 
 
     .service__header span,
     .service__header h2 {
-        width: 100%;
+        width: 80%;
         text-align: center;
+        margin-bottom: 0;
     }
+
 
     .service__cards {
         grid-template-columns: repeat(auto-fill, 40%);
