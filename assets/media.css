@@ -320,8 +320,17 @@
         /* margin-bottom: 2rem; */
     }
 
-
     /* APPROACH PAGE */
+
+    /* FAQS PAGE */
+
+    .FAQS__col:nth-child(2) .FAQS__accordian:nth-child(5) .accordian--description,
+    .FAQS__col:nth-child(1) .FAQS__accordian:nth-child(4) .accordian--description {
+        height: clamp(12.5rem, calc(12.5rem + ((1vw - 1.2rem) * -5.3937)), 15.625rem);
+    }
+
+
+    /* FAQS PAGE */
 
 }
 
@@ -785,6 +794,14 @@
     .FAQS__col:nth-child(2) {
         gap: 2rem;
     }
+
+
+    .FAQS__col:nth-child(2) .FAQS__accordian:nth-child(5) .accordian--description,
+    .FAQS__col:nth-child(1) .FAQS__accordian:nth-child(4) .accordian--description {
+        height: clamp(8.125rem, calc(8.125rem + ((1vw - 0.62rem) * -31.3253)), 16.25rem);
+    }
+
+
 
     /* FAQS PAGE */
 
@@ -1301,6 +1318,12 @@
         font-size: 1rem;
         padding: 0.8em;
     }
+
+    .FAQS__col:nth-child(2) .FAQS__accordian:nth-child(5) .accordian--description,
+    .FAQS__col:nth-child(1) .FAQS__accordian:nth-child(4) .accordian--description {
+        height: clamp(130px, calc(8.125rem + ((1vw - 5.77px) * -58.3658)), 280px);
+    }
+
 
     .accordian--title {
         gap: 0.5rem;
