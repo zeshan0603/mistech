@@ -1598,12 +1598,13 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    height: clamp(62.5rem, calc(62.5rem + ((1vw - 0.75rem) * -72.1154)), 71.875rem);
 }
 
 .FAQS__col:nth-child(2) {
     gap: 4.5rem;
     /* justify-content: space-between; */
-    min-height: 100%;
+
 }
 
 .FAQS__col:nth-child(2) .FAQS__accordian:nth-child(5) .accordian--description {
