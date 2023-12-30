@@ -1709,9 +1709,7 @@ body {
     height: auto;
 }
 
-.accordion--content.open {
-    /* padding-bottom: 15px; */
-}
+
 
 .accordian--description {
     width: 80%;
@@ -1725,6 +1723,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
+    align-items: center;
     gap: 1rem;
     cursor: pointer;
     border-bottom: 1px solid rgba(128, 128, 128, 0.224);
