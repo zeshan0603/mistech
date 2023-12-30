@@ -1657,7 +1657,7 @@ body {
 
 .FAQS__wrapper {
     border-radius: 15px;
-    padding: 2rem;
+    padding: 0 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
