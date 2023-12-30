@@ -1602,7 +1602,7 @@ body {
 }
 
 .FAQS__col:nth-child(2) {
-    gap: 4.5rem;
+    gap: 4.7rem;
     /* justify-content: space-between; */
 
 }
@@ -1709,7 +1709,9 @@ body {
     height: auto;
 }
 
-
+.accordion--content.open {
+    /* padding-bottom: 15px; */
+}
 
 .accordian--description {
     width: 80%;
