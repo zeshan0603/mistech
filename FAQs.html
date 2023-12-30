@@ -86,7 +86,8 @@
                             <span>
                                 What is your policy on distributon?
                             </span>
-                            <img src="./assets/images/FAQS-arrow-down.svg" alt="">
+                            <img src="./assets/images/FAQS-arrow-down.svg" alt="arrow down" width="24" height="24"
+                                loading="eager">
                         </div>
                         <p class="accordian--description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias impedit fuga, quisquam
@@ -101,7 +102,8 @@
                             <span>
                                 What is your policy on distributon?
                             </span>
-                            <img src="./assets/images/FAQS-arrow-down.svg" alt="">
+                            <img src="./assets/images/FAQS-arrow-down.svg" alt="arrow down" width="24" height="24"
+                                loading="eager">
                         </div>
                         <p class="accordian--description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias impedit fuga, quisquam
@@ -118,7 +120,8 @@
                             <span>
                                 What is your policy on distributon?
                             </span>
-                            <img src="./assets/images/FAQS-arrow-down.svg" alt="">
+                            <img src="./assets/images/FAQS-arrow-down.svg" alt="arrow down" width="24" height="24"
+                                loading="eager">
                         </div>
                         <p class="accordian--description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias impedit fuga, quisquam
@@ -133,7 +136,8 @@
                             <span>
                                 What is your policy on distributon?
                             </span>
-                            <img src="./assets/images/FAQS-arrow-down.svg" alt="">
+                            <img src="./assets/images/FAQS-arrow-down.svg" alt="arrow down" width="24" height="24"
+                                loading="eager">
                         </div>
                         <p class="accordian--description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias impedit fuga, quisquam
@@ -148,7 +152,8 @@
                             <span>
                                 How can I contribute to Flowspark?
                             </span>
-                            <img src="./assets/images/FAQS-arrow-down.svg" alt="">
+                            <img src="./assets/images/FAQS-arrow-down.svg" alt="arrow down" width="24" height="24"
+                                loading="eager">
                         </div>
                         <p class="accordian--description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias impedit fuga, quisquam
@@ -163,7 +168,8 @@
                             <span>
                                 What other themes do you have?
                             </span>
-                            <img src="./assets/images/FAQS-arrow-down.svg" alt="">
+                            <img src="./assets/images/FAQS-arrow-down.svg" alt="arrow down" width="24" height="24"
+                                loading="eager">
                         </div>
                         <p class="accordian--description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias impedit fuga, quisquam
@@ -178,7 +184,8 @@
                             <span>
                                 What other themes do you have?
                             </span>
-                            <img src="./assets/images/FAQS-arrow-down.svg" alt="">
+                            <img src="./assets/images/FAQS-arrow-down.svg" alt="arrow down" width="24" height="24"
+                                loading="eager">
                         </div>
                         <p class="accordian--description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias impedit fuga, quisquam
@@ -300,10 +307,13 @@
                 if (item.classList.contains("open")) {
                     description.style.height = `${description.scrollHeight}px`;
                     item.querySelector("img").setAttribute("src", "./assets/images/FAQS-arrow-up.svg")
+
+                    item.querySelector("img").setAttribute("alt", "arrow up");
                 }
                 else {
                     description.style.height = "0px"
                     item.querySelector("img").setAttribute("src", "./assets/images/FAQS-arrow-down.svg")
+                    item.querySelector("img").setAttribute("alt", "arrow down");
                 }
 
                 removeOpen(index);
@@ -321,6 +331,8 @@
 
                     des.style.height = "0px";
                     item2.querySelector("img").setAttribute("src", "./assets/images/FAQS-arrow-down.svg")
+
+                    item.querySelector("img").setAttribute("alt", "arrow down");
 
                 }
             })
