@@ -1598,27 +1598,19 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    height: clamp(62.5rem, calc(62.5rem + ((1vw - 0.75rem) * -72.1154)), 71.875rem);
+    height: clamp(62.5rem, calc(62.5rem + ((1vw - 1.2rem) * -10.7875)), 68.75rem);
 }
 
-.FAQS__col:nth-child(2) {
-    gap: 4.7rem;
-    /* justify-content: space-between; */
 
-}
 
-.FAQS__col:nth-child(2) .FAQS__accordian:nth-child(5) .accordian--description {
-    height: 200px;
-}
-
-.FAQS__col:nth-child(1) .FAQS__accordian:nth-child(4) .accordian--description {
-    height: 200px;
+.FAQS__col:nth-child(2) .FAQS__accordian:nth-child(1) .accordian--description,
+.FAQS__col:nth-child(1) .FAQS__accordian:nth-child(3) .accordian--description {
+    height: clamp(12.5rem, calc(12.5rem + ((1vw - 1.2rem) * -5.3937)), 15.625rem);
 }
 
 
 .FAQS__wrapper h1 {
     display: flex;
-    font-size: 4rem;
     flex-direction: column;
     gap: 2rem;
 }
@@ -1733,12 +1725,15 @@ body {
     font-size: clamp(1rem, calc(1rem + ((1vw - 0.2rem) * 0.8)), 1.8rem);
 }
 
-.accordian--title img {
-    width: 24px;
-    height: 24px;
+.accordian--title i {
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: normal;
+    transition: all ease 0.3s;
 }
 
-.accordian--title:hover span {
+.accordian--title:hover span,
+.accordian--title:hover i {
     color: var(--primary);
 }
 

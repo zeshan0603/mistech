@@ -324,10 +324,6 @@
 
     /* FAQS PAGE */
 
-    .FAQS__col:nth-child(2) .FAQS__accordian:nth-child(5) .accordian--description,
-    .FAQS__col:nth-child(1) .FAQS__accordian:nth-child(4) .accordian--description {
-        height: clamp(12.5rem, calc(12.5rem + ((1vw - 1.2rem) * -5.3937)), 15.625rem);
-    }
 
 
     /* FAQS PAGE */
@@ -799,13 +795,10 @@
         gap: 2rem;
     }
 
-
-    .FAQS__col:nth-child(2) .FAQS__accordian:nth-child(5) .accordian--description,
-    .FAQS__col:nth-child(1) .FAQS__accordian:nth-child(4) .accordian--description {
-        height: clamp(8.125rem, calc(8.125rem + ((1vw - 0.62rem) * -31.3253)), 16.25rem);
+    .FAQS__col:nth-child(2) .FAQS__accordian:nth-child(1) .accordian--description,
+    .FAQS__col:nth-child(1) .FAQS__accordian:nth-child(3) .accordian--description {
+        height: clamp(9.375rem, calc(9.375rem + ((1vw - 0.62rem) * -12.0482)), 12.5rem);
     }
-
-
 
     /* FAQS PAGE */
 
@@ -1315,18 +1308,21 @@
 
     .FAQS__question,
     .FAQS__accordian {
-        padding: 30px 15px;
+        padding: 20px 5px;
     }
 
     .FAQS__question a {
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 0.8em;
     }
 
-    .FAQS__col:nth-child(2) .FAQS__accordian:nth-child(5) .accordian--description,
-    .FAQS__col:nth-child(1) .FAQS__accordian:nth-child(4) .accordian--description {
-        height: clamp(130px, calc(8.125rem + ((1vw - 5.77px) * -58.3658)), 280px);
+
+    .FAQS__col:nth-child(2) .FAQS__accordian:nth-child(1) .accordian--description,
+    .FAQS__col:nth-child(1) .FAQS__accordian:nth-child(3) .accordian--description {
+        height: clamp(130px, calc(8.125rem + ((1vw - 5.76px) * -66.4062)), 300px);
     }
+
+
 
 
     .accordian--title {
