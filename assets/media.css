@@ -778,20 +778,12 @@
     /* SUPPORT PAGE */
 
     /* FAQS PAGE */
-    .FAQS {
+    .FAQS__wrapper {
         grid-template-columns: 1fr;
     }
 
-    .FAQS h1,
-    .FAQS>p,
-    .FAQS__card,
-    .FAQS__question {
-        grid-column: 1/auto;
-    }
-
-    .FAQS .FAQS__card:last-child {
-        grid-row: auto;
-        grid-column: 1/auto;
+    .FAQS__col:nth-child(2) {
+        gap: 2rem;
     }
 
     /* FAQS PAGE */
@@ -1296,10 +1288,32 @@
     /* SUPPORT PAGE */
 
     /* FAQS PAGE */
-    .FAQS__card,
-    .FAQS__question {
-        padding: 2rem 2.5rem;
+    .FAQS__wrapper {
+        padding: 2rem 15px;
     }
+
+    .FAQS__question,
+    .FAQS__accordian {
+        padding: 30px 15px;
+    }
+
+    .FAQS__question a {
+        font-size: 1rem;
+        padding: 0.8em;
+    }
+
+    .accordian--title {
+        gap: 0.5rem;
+    }
+
+    .accordian--title span {
+        font-size: 1rem;
+    }
+
+    .accordian--description {
+        font-size: 1rem;
+    }
+
 
     /* FAQS PAGE */
 
